@@ -1,0 +1,80 @@
+.titulo-pricipal{
+    padding-left: 30px;
+}
+
+#banner{
+    width: 100%;
+}
+
+.principal{
+    background: #CCCCCC;
+    padding: 20px;
+}
+
+.titulo-centralizado{ /* Selector de clase*/
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+em strong{ /*etiqueta en cascada*/
+    color: red;
+}
+
+#mision{/*selector de id, necesito usar el #*/
+    font-size: 20px;
+}
+
+.diferenciales{ /* Una clase me permite reutilar el estilo, el indentificadon no*/
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+.items{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block; /*BLOCK viene por defecto en las listas- INLINE en las imagenes - se ajustan solo al contenido que ocupan*/
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagenDiferenciales{
+    width: 50%;
+}
+
+/*
+    A configurar la presentación de los textos: alineamiento (text-align), tamaño de la fuente (font-size), el color del fondo (background) y el color del texto (color).
+    CSS inline: adicionar estilos CSS en la misma línea donde tenemos nuestra etiqueta HTML.
+    La etiqueta <style>: dentro de esta etiqueta podemos colocar marcaciones de CSS referentes a los elementos que tenemos en nuestro HTML.
+    La presentación del CSS como un archivo externo.
+    Cómo funciona el estilo en cascada del CSS.
+    Cómo importar un archivo externo de CSS dentro de nuestra página HTML.
+    Cómo representar colores en el CSS: 1) a través del nombre del color en inglés, 2) a través de su representación hexadecimal y 3) a través del RGB.
+*/
+
+/* PADDING - ESPACIAMIENTO INTERNO DE LOS ELEMENTOS */
+
+/*
+    Cómo reestructurar nuestro código, removiendo los estilos CSS inline y colocándolos en el archivo CSS externo.
+    Cómo crear un identificador para marcar específicamente un elemento: cómo realizar esa referencia a ese identificador en el CSS.
+    Cómo adicionar una imagen en nuestra página.
+    Cómo ajustar la altura del elemento, a través de la propiedad height.
+    Cómo ajustar la anchura del elemento, a través de la propiedad width.
+    Cómo ajustar el margen interno del elemento, a través de la propiedad padding.
+    Cómo ajustar el margen extern del elemento, a través de la propiedad margin.
+    Cómo se conforma normalmente un equipo de front-end hoy en día.
+*/
+
+/*
+    Conocimos las listas (ordenadas y no ordenadas), trabajamos con listas no ordenadas.
+    Vimos que para cada ítem de la lista necesitamos usar la etiqueta <li>.
+    El concepto de las clases en el CSS, estas sirven para marcar ítems, solo que podemos replicar los estilos en varios elementos.
+    Cómo referenciar una clase en el CSS.
+    Divisores de contenido, utilizando la etiqueta <div>.
+    Los comportamientos inline y block.
+*/
